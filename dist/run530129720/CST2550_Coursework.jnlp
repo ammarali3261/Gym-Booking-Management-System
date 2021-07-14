@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CST2550_Coursework.jnlp">
+  <information>
+    <title>CST2550_Coursework</title>
+    <vendor>Ammar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CST2550_Coursework.jar" size="71943" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CST2550_Coursework" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cst2550_coursework.CST2550_Coursework"  name="CST2550_Coursework" />
+  <update check="always"/>
+</jnlp>
