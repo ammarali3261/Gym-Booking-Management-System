@@ -18,9 +18,9 @@ public class DBConnection {
     //gives the path for the mysql driver
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     //username for the database
-    private static final String USER = "root";
+    private static final String USER = "username";
     //password for the database
-    private static final String PASS = "ammar";
+    private static final String PASS = "password";
 
     //connection method that makes the connection to the database
     public static Connection connect() throws SQLException {
